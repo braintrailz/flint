@@ -1,0 +1,17 @@
+{
+  "name": "braintrailz-flint",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Flint: a Trailcard-governed project-definition skill and structural validator.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check skills/flint/scripts/validate.mjs && node --check scripts/package.mjs && node --check scripts/review-evals.mjs && node --test",
+    "validate": "node skills/flint/scripts/validate.mjs .",
+    "package": "node scripts/package.mjs",
+    "evals": "node scripts/review-evals.mjs"
+  }
+}
