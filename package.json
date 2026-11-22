@@ -13,5 +13,6 @@
     "validate": "node skills/flint/scripts/validate.mjs .",
     "package": "node scripts/package.mjs",
     "evals": "node scripts/review-evals.mjs"
-  }
+  },
+  "license": "MIT"
 }

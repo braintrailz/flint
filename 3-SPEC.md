@@ -72,3 +72,7 @@ Verified on Node v26.3.0/macOS: syntax checks and 32 `node:test` cases, root str
 The validator accepts `PROJECT [--trailcard CARD] [--format text|json]`; exit codes are 0 (no structural errors), 1 (findings), 2 (usage/root error). Its documented Markdown subset excludes reference-style/HTML links, titled links, nested-parenthesis targets and setext headings. See `README.md` for output fields and limits.
 
 FR-01–03 and FR-13–14 derive from Trailcard and Marc's article. FR-04–12 derive from the scaffold discussion, Waypoint/schwab-kit methodology and Marc's time/scope/quality concern. FR-05/AC-04 capture the later TUI/native-app clarification in [warp-code's card](../warp-code/TRAILCARD.md). The ordered work is [4-PLAN.md](4-PLAN.md).
+
+## A2 — Distribution clarification (November 22, 2026)
+
+Source is public under the existing MIT license. The portable skill directory and allowlisted archive must include that license unchanged. README distinguishes source installation, local packaging, and versioned GitHub release assets; publication is a separate owner action. Version remains 0.1.0. No skill workflow or validator semantics change in this amendment. Independent effectiveness and host compatibility remain unqualified.

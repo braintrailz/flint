@@ -200,6 +200,8 @@ test("archive is deterministic, allowlisted and relocatable", (t) => {
   }
   assert.equal(bytes.readUInt32LE(offset), 0x02014b50);
   assert.deepEqual(names.sort(), FILES.map((name) => `flint/${name}`).sort());
+  assert.equal(readFileSync(join(unpacked, "flint/LICENSE"), "utf8"),
+    readFileSync(join(ROOT, "LICENSE"), "utf8"));
   const run = spawnSync(process.execPath, [
     join(unpacked, "flint/scripts/validate.mjs"), root, "--format", "json",
   ], { encoding: "utf8" });

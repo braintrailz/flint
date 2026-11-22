@@ -40,7 +40,7 @@ One small `skills/flint/SKILL.md` entrypoint with trigger/prerequisite/workflow/
 - Root `scripts/review-evals.mjs` and `evals/evals.json`: proposed prompts, validated/displayed without model calls or invented results.
 - Root `tests/flint.test.mjs`: Node's built-in test runner with synthetic temporary projects.
 
-These files now exist. JavaScript ES modules and Node 22+ are the selected tooling; no dependencies, compiler or second runtime are required. Only the 12 allowlisted skill resources enter the archive. Root working cards, definitions, tests and evals are excluded. No vendor-specific API or orchestration framework belongs in the portable center.
+These files now exist. JavaScript ES modules and Node 22+ are the selected tooling; no dependencies, compiler or second runtime are required. Only the 12 allowlisted skill resources and the MIT LICENSE enter the archive. Root working cards, definitions, tests and evals are excluded. No vendor-specific API or orchestration framework belongs in the portable center.
 
 ## 5. NFR record shape
 
@@ -64,4 +64,4 @@ Human/model evaluation examines whether the method preserved intent, exercised u
 
 Use **Braintrailz Flint** in introductory material and **Flint** in ordinary sentences. Sample: “Run Flint on this idea before we write code.” A defer/stop finding is a legitimate result, not a failed spark that the agent must force into a fire.
 
-No logo, domain, extension ID, public repository, license for new work or publishing channel is decided by this document.
+No logo, domain or extension ID is decided by this document. The current public source is https://github.com/braintrailz/flint under MIT; versioned GitHub release publication is an owner action.

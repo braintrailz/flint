@@ -1,8 +1,8 @@
 # Braintrailz Flint
 
 **Owner:** Marc J. Greenberg.
-**Updated:** November 19, 2026.
-**State:** Local v0.1.0 implemented and mechanically tested in JavaScript/Node. No global installation or publication.
+**Updated:** November 22, 2026.
+**State:** v0.1.0 source is public on GitHub under MIT. A local bundle is prepared separately; no versioned GitHub release or global installation is claimed. Independent effectiveness and host qualification remain open.
 
 ## 1. Purpose
 
@@ -45,7 +45,7 @@ It does not reject a product solely because another tool has the same features. 
 - **D3 — Governance:** use Trailcard, do not fork its general model.
 - **D4 — First case:** warp-code is a development case study, not an independent benchmark.
 - **D5 — Current investment:** Marc authorized v0.1 implementation. The skill and mechanical helpers are built; independent model/human evaluation remains open.
-- **D6 — Distribution/license:** public identity, license for new work and release mechanism remain Marc-owned decisions before distribution.
+- **D6 — Distribution/license:** source is public at https://github.com/braintrailz/flint under the existing MIT license. The bundle includes that license. Marc owns publication of a versioned GitHub release; source visibility and release publication are separate states.
 - **D7 — Language:** JavaScript on Node.js, using ES modules and built-ins. This is Marc's default preference for new tooling, now recorded in user-level agent instructions. Preserve unrelated projects' existing languages.
 
 **Pursuit recommendation:** Review the local v0.1 bundle and proposed evaluation cases next. Mechanical implementation is not an unconditional recommendation to fund a full product or a claim of effectiveness.

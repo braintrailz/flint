@@ -10,7 +10,7 @@ import { isWithin, readBounded } from "../skills/flint/scripts/validate.mjs";
 export const ROOT = fileURLToPath(new URL("../", import.meta.url));
 export const SOURCE = resolve(ROOT, "skills/flint");
 export const FILES = [
-  "SKILL.md", "assets/DECISION.md", "assets/1-PROJECT.md", "assets/2-TERMS.md",
+  "SKILL.md", "LICENSE", "assets/DECISION.md", "assets/1-PROJECT.md", "assets/2-TERMS.md",
   "assets/3-SPEC.md", "assets/4-PLAN.md", "assets/5-DESIGN.md",
   "references/braintrailz.md", "references/decisions.md", "references/envelope.md",
   "references/examples.md", "scripts/validate.mjs",

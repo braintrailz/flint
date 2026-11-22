@@ -64,3 +64,13 @@ The first warp-code document pass preceded a formal card. Do not rewrite that hi
 Report files written and commands/results. Distinguish the implemented skill from global installation, a structural check from semantic validation, and proposed evaluation prompts from actual model runs. Report unselected public licensing and untested host compatibility.
 
 Audit completion against this card using Trailcard's evidenced/asserted/missing classifications and trusted/trusted-with-gaps/not-yet-trusted verdicts. This card delegates no technical permission beyond the actual host's controls.
+
+## November 22, 2026 — release documentation clarification
+
+Later instruction, verbatim:
+
+> fix 1-3 and i will release it. do you this v0.0.1 is right or does this become 1.0.0
+
+Context for “1-3”: correct publication status, reconcile README licensing with the existing MIT LICENSE, and clarify how users obtain and install Flint. Authorized scope: update those statements and directly related packaging/license inclusion, run local checks and prepare the local bundle. Marc reserves the actual release. No commit, tag, push, publication or global installation is authorized by this instruction.
+
+Version recommendation: retain existing 0.1.0 for the initial-development bundle. This is a recommendation, not a claim that Marc selected 1.0.0 or that the skill is independently qualified. Existing public source and MIT license were observed; no new license was chosen.

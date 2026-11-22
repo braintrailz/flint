@@ -1,5 +1,5 @@
 # Flint build plan
-**Updated:** November 19, 2026. **State:** v0.1.0 implemented locally in JavaScript/Node; 32 mechanical tests pass. Human/model evaluation, host qualification, public licensing and publication remain open.
+**Updated:** November 22, 2026. **State:** v0.1.0 source is public under MIT. Human/model evaluation, host qualification, and a versioned GitHub release remain open. Mechanical implementation evidence is recorded below.
 ## Problem and current state
 Package Marc's research-first, documentation-only project scaffold as a portable companion to Trailcard. Flint evaluates whether and how an idea merits a build; Trailcard governs authority, bounded judgment and evidence. The accepted working name is Flint, not Kindling or Firstlight. No public name or trademark clearance is claimed.
 Marc authorized Flint v0.1 implementation and then required all tooling to use Node, with his language preference persisted for future sessions. The entrypoint, six templates, four references, Node validator, 32 offline tests, proposed eval cases, Node case-review tool and local archive builder now exist. warp-code was not modified during implementation and remains a development case, not an independent benchmark.
@@ -22,10 +22,18 @@ Assess correct pursuit decisions, original-intent preservation, authority compli
 The current implementation request narrowed work to Flint. No child agents launched and warp-code was not modified. Any future parallel work needs named assignments and review; the earlier two-child configuration is not authority to launch it.
 warp-code tests whether the method distinguishes experience, complementary capabilities and session continuity from terminal feature parity. No build, bridge, supported wrapper, defer or stop are legitimate recommendations. Preserve the distinction between applying the method during its development and an independent effectiveness evaluation.
 **Exit:** A source-linked case record identifies what Flint clarified, where the method needed correction and what remains unknown. Sanitize any redistributable example.
-## Implementation record
+## Implementation record — November 19, 2026 (historical)
 Completed directly in the Flint tree, without delegation, provider calls, global installation, commits or publication. Language preference saved in the shared user rules and Claude/Codex user instruction files. The distributable contains only 12 allowlisted skill resources; private working cards, root definitions, evaluation prompts and tests are excluded.
+## Release preparation — November 22, 2026
+
+Marc requested correction of publication status, licensing and installation instructions and reserved release publication for himself. Updated public-source and MIT guidance, documented source and future release-asset installation, and included the existing MIT license in the allowlisted bundle (12 resources plus LICENSE). Retained version 0.1.0 and all open effectiveness/host qualification limits. No publication is performed by this preparation.
+
 ## Delivery and quality gates
 Deadline, engineering-hour budget, compute-credit ceiling and acceptable review time remain Marc-owned decisions before sustained implementation. Existing tools or agents are not described as free. Safety/privacy, authority preservation and truthful evidence are non-negotiable floors; scope and presentation detail can be negotiated.
 Each relevant NFR records a target or explicit unknown, measurement, owner and gate. Cover security/privacy, correctness, performance/capacity, accessibility, compatibility, reliability/recovery, maintainability/operations and cost. A non-applicable category needs a reason. No arbitrary numeric target is imposed without rationale.
 ## Evidence and current limits
-Local v0.1.0 artifact: `dist/flint-0.1.0.skill`. Verified: syntax checks, 32 Node tests, full-definition structural check, archive allowlist/CRC/relocation and independent ZIP integrity. Unverified: model effectiveness, fresh-reader performance and end-to-end host/trigger compatibility. Public license remains unselected; nothing was globally installed or published.
+Local v0.1.0 artifact: `dist/flint-0.1.0.skill`. Verified: syntax checks, 32 Node tests, full-definition structural check, archive allowlist/CRC/relocation and independent ZIP integrity. Unverified: model effectiveness, fresh-reader performance and end-to-end host/trigger compatibility. The original implementation did not perform global installation or publication. Current source is public under MIT; a versioned GitHub release remains a separate owner action.
+
+## Release-preparation verification — November 22, 2026
+
+After the documentation and license-inclusion changes, npm run check passed all 32 tests, including checking the archived license against root LICENSE. npm run validate passed with zero errors and the existing outside-root source warning. Rebuilt the local 0.1.0 archive and passed unzip -t for all 13 files. git diff --check passed. No effectiveness evaluation, global installation, commit, tag, push or release publication was performed.
