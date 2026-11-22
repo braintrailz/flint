@@ -6,7 +6,7 @@ An Agent Skill that turns an idea into a justified next investment before you wr
 
 A [Braintrailz](https://braintrailz.com) composition by [codemarc](https://github.com/codemarc).
 
-**Version:** 0.1.0, initial development. [Source is public](https://github.com/braintrailz/flint) under the [MIT license](LICENSE). As of November 22, 2026, no versioned GitHub release has been published; the local `.skill` archive is prepared separately from the public source.
+**Version:** 0.1.0, initial development. [Source is public](https://github.com/braintrailz/flint) under the [MIT license](LICENSE). For versioned packages and release notes, see [GitHub Releases](https://github.com/braintrailz/flint/releases).
 
 ## The idea
 
@@ -61,7 +61,7 @@ Review an existing installation before replacing it. Follow your host's instruct
 
 ### Install from a packaged release
 
-When a versioned release is available, download its `.skill` asset from [GitHub Releases](https://github.com/braintrailz/flint/releases). It is a standard ZIP containing a top-level `flint/` directory. Use your host's supported skill importer, or extract that directory into its skill directory above. A public repository does not by itself mean a downloadable release asset exists.
+Download the `.skill` asset for your chosen version from [GitHub Releases](https://github.com/braintrailz/flint/releases). It is a standard ZIP containing a top-level `flint/` directory. Use your host's supported skill importer, or extract that directory into its skill directory above. A public repository does not by itself mean a downloadable release asset exists.
 
 To prepare your own archive from a checkout, use `npm run package`; see [Test and package](#test-and-package).
 
